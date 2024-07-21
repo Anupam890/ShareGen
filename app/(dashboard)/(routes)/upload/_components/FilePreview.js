@@ -1,5 +1,5 @@
 import { File, X } from "lucide-react";
-import Image from "next/image";
+
 function FilePreview({ file,removeFile }) {
   return (
     <div className="flex items-center gap-2 justify-between mt-5 border rounded-md p-2 border-blue-200">
