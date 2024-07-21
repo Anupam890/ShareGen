@@ -3,7 +3,7 @@ import React from 'react'
 import {getStorage, uploadBytesResumable} from 'firebase/storage';
 import UploadForm from './_components/UploadForm';
 import { app } from '@/firebaseConfig';
-import { metadata } from '@/app/layout';
+
 
 function Upload() {
 
